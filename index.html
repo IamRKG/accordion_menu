@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Menu Demo</title>
+    <meta name="description" content="Interactive accordion menu demonstration">
+    <style>
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            border: solid 1px #ccc;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+
+        li h2 {
+            border: solid 1px #ccc;
+            background: #999;
+           
+            margin: 0;
+            cursor: pointer;
+        }
+
+        li p {
+            transition: all 0.3s ease-in-out;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script defer src="./menu.js">
+
+  
+      
+    </script>
+</head>
+
+<body>
+    <ul role="tablist">
+        <li>
+            <h2 role="tab" aria-expanded="false">Small</h2>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </li>
+        <li>
+            <h2 role="tab" aria-expanded="false">Medium</h2>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </li>
+        <li>
+            <h2 role="tab" aria-expanded="false">Larage</h2>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </li>
+
+    </ul>
+</body>
+
+</html>
